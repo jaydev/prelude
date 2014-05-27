@@ -15,12 +15,10 @@
 
 ;; Override Prelude default programming modes
 (defun my-prog-mode-defaults ()
-  ;; Turn off whitespace and end of line markers
-  (whitespace-mode 0)
   ;; Show line numbers in margin
   (linum-mode 1)
-  ;; Draw indendation guides
-  (highlight-indentation-current-column-mode 1))
+  (setq-default indent-tabs-mode t)
+  (setq tab-width 2))
 (add-hook 'prelude-prog-mode-hook 'my-prog-mode-defaults t)
 
 ;; Start the emacsserver that listens to emacsclient
