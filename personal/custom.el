@@ -1,3 +1,8 @@
+(prelude-require-packages '(powerline
+                            color-theme-sanityinc-tomorrow
+                            flymake-jshint
+                            flymake-cursor))
+
 (load "~/.emacs.d/personal/keybindings.el")
 (load "~/.emacs.d/personal/python.el")
 (load "~/.emacs.d/personal/javascript.el")
