@@ -26,7 +26,3 @@
 
 ;; Turn off the annoying audible bell for invalid actions
 (setq ring-bell-function 'ignore)
-
-;; Always enable ido mode and prelude's more powerful matcher in flx-ido
-(ido-mode 1)
-(flx-ido-mode 1)
