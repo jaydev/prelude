@@ -7,7 +7,7 @@
 
 ;; Backward delete
 (global-set-key (kbd "\C-h") 'delete-backward-char)
-(global-set-key "\M-h" 'paredit-backward-kill-word)
+(global-set-key "\M-h" 'backward-kill-word)
 
 ;; Prelude sets C-h to help in some modes, so we must override again
 (add-hook 'ruby-mode-hook (global-set-key "\C-h" 'delete-backward-char))
