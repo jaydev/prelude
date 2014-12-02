@@ -10,15 +10,11 @@
 ;; No more spellchecking in code files
 (add-hook 'prog-mode-hook 'turn-off-flyspell t)
 
-;; Set theme
-(load-theme 'sanityinc-tomorrow-eighties t)
-
 ;; Override Prelude default programming modes
 (defun my-prog-mode-defaults ()
   ;; Show line numbers in margin
   (linum-mode 1)
-  (setq-default indent-tabs-mode t)
-  (setq tab-width 2))
+)
 (add-hook 'prelude-prog-mode-hook 'my-prog-mode-defaults t)
 
 ;; Start the emacsserver that listens to emacsclient
