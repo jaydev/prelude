@@ -22,3 +22,6 @@
 
 ;; Turn off the annoying audible bell for invalid actions
 (setq ring-bell-function 'ignore)
+
+;; Trigger html-mode for handlebars files
+(add-to-list 'auto-mode-alist '("\\.hbs\\'" . html-mode))
