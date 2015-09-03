@@ -6,6 +6,8 @@
 (load "~/.emacs.d/personal/python.el")
 (load "~/.emacs.d/personal/javascript.el")
 (load "~/.emacs.d/personal/ruby.el")
+
 (load "~/.emacs.d/personal/powerline.el")
 (load "~/.emacs.d/personal/web-mode.el")
 (load "~/.emacs.d/personal/global.el")
+(load "~/.emacs.d/personal/css.el")
