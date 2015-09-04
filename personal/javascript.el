@@ -2,6 +2,7 @@
 
 ;; Use 2 spaces per indentation level
 (setq js-indent-level 2)
+(setq-default js2-basic-offset 2)
 
 ;; Insert debugger
 (add-hook 'js-mode-hook
